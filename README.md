@@ -66,7 +66,7 @@ The server should be running on `http://localhost:3001`.
 - **Request Body**:
   ```json
   {
-    "location": "New York"
+    "location": "Austin"
   }
   ```
 
@@ -75,11 +75,11 @@ The server should be running on `http://localhost:3001`.
     ```json
     {
       "result": {
-        "day1": "Sunny with a high of 75°F.",
-        "day2": "Partly cloudy with a chance of showers and a high of 72°F.",
-        "day3": "Rainy with thunderstorms and a high of 68°F.",
-        "day4": "Cloudy with a high of 70°F.",
-        "day5": "Clear skies with a high of 78°F."
+		    "day1": "Welcome sports fans! Day one in Austin will bring clear skies and a high temperature of 85 degrees. Perfect weather for outdoor activities!",
+		    "day2": "And on day two, we're expecting some clouds to roll in with a chance of showers in the afternoon. Temperatures will reach a high of 78 degrees.",
+		    "day3": "Moving on to day three, the sun will be back shining bright with a high of 82 degrees. Great weather for a day at the park!",
+		    "day4": "As we approach day four, expect partly cloudy skies and a high temperature of 79 degrees. A great day for a hike in the hills!",
+		    "day5": "And finally, on day five, we'll see a mix of sun and clouds with a high of 81 degrees. Looks like another beautiful day in Austin!"
       }
     }
     ```
